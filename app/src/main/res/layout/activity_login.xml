@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+       <TextView
+           android:id="@+id/exit"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:gravity="center"
+           android:drawableLeft="@drawable/jf_back"
+           android:drawablePadding="10dp"
+           android:textSize="22sp"
+           android:textStyle="bold"
+           android:layout_marginLeft="20dp"
+           android:layout_gravity="center_vertical"
+           android:text="@string/back"/>
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:drawablePadding="10dp"
+            android:textSize="22sp"
+            android:src="@drawable/shezhi"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/xunjian_bg">
+        </LinearLayout>
+        <!--<com.baidu.mapapi.map.MapView-->
+            <!--android:id="@+id/bmapView"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:background="@drawable/xuanjia_bg"-->
+            <!--android:clickable="true" />-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/white"
+            android:layout_height="300dp">
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="match_parent"
+                android:background="@color/newtime"
+                android:textColor="@color/text_bg_color"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="测试时间"
+                android:layout_height="50dp"></TextView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/xunjian_icon"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:textSize="20sp"
+                        android:text="@string/xuanjian"/>
+                    <TextView
+                        android:id="@+id/xunjian_jindu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/title_color"
+                        android:textSize="28sp"
+                        android:text="@string/xuanjian"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/saoma_login"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/text_bg"
+                android:text="@string/code_login"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/text_white_color"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/jiqi_login"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/jiqi_login"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/text_bg_color"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

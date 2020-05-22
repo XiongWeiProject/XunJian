@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="300px"
+    android:background="@drawable/white"
+    android:padding="20px"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/xunjia_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/title_color"
+            android:textSize="40px"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/xunjianicon"
+            android:text="卫生情况"/>
+        <TextView
+            android:id="@+id/xunjian_chuli"
+            android:layout_width="150px"
+            android:layout_height="65px"
+            android:textSize="32px"
+            android:drawablePadding="10px"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_marginRight="20px"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/green_bg"
+            android:textColor="@color/text_white_color"
+            android:text="上传"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/line_bg"
+        android:layout_margin="40px"></View>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <RadioButton
+            android:id="@+id/xunajian_chengc"
+            android:layout_width="180px"
+            android:layout_height="65px"
+            android:textSize="32px"
+            android:gravity="center"
+            android:paddingLeft="20px"
+            android:drawableLeft="@drawable/zhengcah"
+            android:button="@null"
+            android:background="@drawable/gray_stoke"
+            android:textColor="@color/text_color"
+            android:text="正常"/>
+        <RadioButton
+            android:id="@+id/xunjian_guzhang"
+            android:layout_width="180px"
+            android:layout_height="65px"
+            android:textSize="32px"
+            android:button="@null"
+            android:drawableLeft="@drawable/guzhangs"
+            android:layout_marginLeft="280px"
+            android:paddingLeft="20px"
+            android:gravity="center"
+            android:background="@drawable/gray_stoke"
+            android:textColor="@color/text_color"
+            android:text="故障"/>
+    </RadioGroup>
+
+</LinearLayout>

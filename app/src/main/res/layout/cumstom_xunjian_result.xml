@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/white"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80px">
+
+        <ImageView
+            android:id="@+id/iv_cance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/xunjian_close" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:padding="40px"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/white">
+        <TextView
+            android:id="@+id/tv_juwei"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="40px"
+            android:drawableLeft="@drawable/jiqi"
+            android:textColor="@color/title_color"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:text="机器地址"/>
+        <TextView
+            android:id="@+id/tv_bianhao"
+            android:layout_width="wrap_content"
+            android:textSize="36px"
+            android:layout_marginTop="20px"
+            android:textColor="@color/text_color"
+            android:layout_height="wrap_content"
+            android:text="设备编号:"/>
+        <TextView
+            android:id="@+id/tv_vision"
+            android:layout_width="wrap_content"
+            android:textSize="36px"
+            android:layout_marginTop="20px"
+            android:textColor="@color/text_color"
+            android:layout_height="wrap_content"
+            android:text="设备编号:"/>
+        <TextView
+            android:id="@+id/tv_anzhuang_time"
+            android:layout_width="wrap_content"
+            android:textSize="36px"
+            android:layout_marginTop="20px"
+            android:textColor="@color/text_color"
+            android:layout_height="wrap_content"
+            android:text="设备编号:"/>
+        <TextView
+            android:id="@+id/tv_shequ"
+            android:layout_width="wrap_content"
+            android:textSize="36px"
+            android:layout_marginTop="20px"
+            android:textColor="@color/text_color"
+            android:layout_height="wrap_content"
+            android:text="设备编号:"/>
+        <TextView
+            android:id="@+id/tv_adress"
+            android:layout_width="wrap_content"
+            android:textSize="36px"
+            android:layout_marginTop="20px"
+            android:textColor="@color/text_color"
+            android:layout_height="wrap_content"
+            android:text="设备编号:"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50px"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/erweima_text"
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:layout_centerInParent="true"
+            android:textSize="40px"
+            android:text="确定无法开机？"/>
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_width="300px"
+            android:layout_height="80px"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="80px"
+            android:layout_marginRight="80px"
+            android:background="@drawable/text_bg"
+            android:gravity="center"
+            android:layout_marginTop="80px"
+            android:padding="5dp"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="40px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100px">
+    </LinearLayout>
+    <!-- 扫描取景框 -->
+
+
+
+</LinearLayout>

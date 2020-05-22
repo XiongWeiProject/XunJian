@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+    <TextView
+        android:id="@+id/point_name"
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/text_color"
+        android:text="@string/test"/>
+
+    <TextView
+        android:id="@+id/point_phone"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/text_color"
+        android:text="@string/test"/>
+    <TextView
+        android:id="@+id/point_time"
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/text_color"
+        android:text="@string/test"/>
+    <TextView
+        android:id="@+id/point_point"
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/text_color"
+        android:text="@string/test"/>
+
+</LinearLayout>

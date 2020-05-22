@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/text_white_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80px">
+
+        <ImageView
+            android:id="@+id/iv_cance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="20px"
+            android:src="@drawable/close" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_card_chuli"
+            android:layout_width="580px"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:background="@drawable/xunjian_chose"
+            android:gravity="center"
+            android:padding="20px">
+
+            <ImageView
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60px"
+                android:src="@drawable/yichuli" />
+
+            <TextView
+                android:id="@+id/id_card_chuli"
+                android:layout_width="180px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30px"
+                android:text="已处理"
+                android:textSize="40px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_cord_yingjian"
+            android:layout_width="580px"
+            android:layout_height="0px"
+            android:layout_marginTop="50px"
+            android:layout_weight="1"
+            android:background="@drawable/xunjian_chose"
+            android:gravity="center"
+            android:padding="20px">
+
+            <ImageView
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60px"
+                android:src="@drawable/ruanjan" />
+
+            <TextView
+                android:id="@+id/bar_code_yingjian"
+                android:layout_width="180px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30px"
+                android:text="硬件维护"
+                android:textSize="40px"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_cord_ruanjia"
+            android:layout_width="580px"
+            android:layout_height="0px"
+            android:layout_marginTop="50px"
+            android:layout_weight="1"
+            android:background="@drawable/xunjian_chose"
+            android:gravity="center"
+            android:padding="20px">
+
+            <ImageView
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60px"
+                android:src="@drawable/yingjian" />
+
+            <TextView
+                android:id="@+id/bar_ruanjian"
+                android:layout_width="180px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30px"
+                android:text="软件维护"
+                android:textSize="40px"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_cord_qita"
+            android:layout_width="580px"
+            android:layout_height="0px"
+            android:layout_marginTop="50px"
+            android:layout_weight="1"
+            android:background="@drawable/xunjian_chose"
+            android:gravity="center"
+            android:padding="20px">
+
+            <ImageView
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60px"
+                android:src="@drawable/qita" />
+
+            <TextView
+                android:id="@+id/bar_qita"
+                android:layout_width="180px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30px"
+                android:text="其他"
+                android:textSize="40px"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="80px"
+            android:layout_marginRight="80px"
+            android:background="@drawable/green_bg"
+            android:gravity="center"
+            android:layout_marginTop="80px"
+            android:padding="5dp"
+            android:text="确定"
+            android:textColor="@color/text_white_color"
+            android:textSize="40px" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="120px"></LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
